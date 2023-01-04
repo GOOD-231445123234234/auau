@@ -1,0 +1,137 @@
+@media(max-width:1200px){
+    .container{
+        max-width: 960px;
+    }
+    .main__top-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+    .main__top-card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .main__top-card:nth-child(2){
+        max-width: 1040px;
+        width: 100%;
+    }
+    .main__second-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;in__card-title
+    }
+    .main__second-card span::before{
+      left: -50%;
+      transform: translateX(50%);
+    }
+    
+
+    .clocks{
+        display: grid;
+        grid-template-columns:1fr ;
+        grid-template-rows:repeat(8, 405px);
+       
+    }
+    .main__card-title-owner{
+    margin-bottom: 40px;
+    }
+    .images{
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0 50px;
+    }
+
+    .main__top-cards .main__top-card:nth-child(1){
+        display: flex;
+        row-gap: 50px;
+        
+        
+    }
+    .main__card-title{
+        text-align: center;
+        position: unset;
+    }
+    .main__top-card:nth-child(1){
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+    }
+  
+    .leader{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 40px;
+        text-align: center;
+    }
+    .container .clocks{
+    
+        text-align: center;
+    }
+
+}
+@media(max-width:992px){
+    .container{
+        max-width: 720px;
+    }
+
+    .inscription{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .top-nav{
+        display: flex;
+        flex-direction: column;
+        column-gap: 30px;
+    }
+
+}
+@media(max-width:768px){
+    .container{
+        max-width: 540px;
+    }
+    .header__nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 10px;
+    }
+    .header-nav__leader{
+        margin-bottom: 40px;
+    }
+    .header__banner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .pay{
+        width: 280px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 150px;
+    }
+    .second-column{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+@media(max-width:576px){
+    .container{
+        max-width: 100%;
+    }
+}
